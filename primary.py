@@ -1,3 +1,4 @@
+
 # author:
 # date:
 
@@ -24,12 +25,12 @@ print(
 #   elia
 #
 # Write Code Below #
-
+for i in range(5):
+  print('Brielle')
 
 # 2 - for Loop | Printing i
 #   a. Create a for loop that runs 5 times.
 #   b. Within the for loop, print the value of iterator variable (i).
-#
 # Example Output #
 #
 #   0
@@ -39,7 +40,9 @@ print(
 #   4
 #
 # Write Code Below #
-
+print()
+for i in range(5):
+  print(i)
 
 # 3 - for Loop | Running According to the User
 #   a. Prompt the user for input in the form of an integer. Save it to a variable. This will be used as the argument
@@ -59,6 +62,11 @@ print(
 #   $$$$$$
 #
 # Write Code Below #
+
+n = int(input('>> Enter integer here: '))
+for i in range(n):
+  print('$' * i)
+
 
 
 # ---------- Part 2 | Direct Access ---------- #
@@ -82,7 +90,9 @@ print(
 #   a
 #
 # Write Code Below #
-
+name = 'Brielle'
+for char in name:
+  print(char)
 
 # 2 - for Loop | Printing the User's Name
 #   a. Prompt input from the user in the form of their name. Save to a variable named name.
@@ -105,6 +115,9 @@ print(
 #   e
 #
 # Write Code Below #
+name = input('>> Enter name here: ')
+for char in name:
+    print(char)
 
 
 # ---------- Part 3 | range() variations ---------- #
@@ -143,6 +156,8 @@ print(
 #
 # Write Code Below #
 
+for i in range(10, 25):
+  print(i)
 
 # 2 - for Loop | Custom Step
 #   a. Create a for loop that runs from 5 to -5.
@@ -162,4 +177,8 @@ print(
 #   -4
 #
 # Write Code Below #
+for i in range(5, -5, -1):
+  print(i)
 
+
+# -5 -4 -3 -2 -1 0 1 2 3 4 5
